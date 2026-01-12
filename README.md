@@ -1,89 +1,135 @@
 # 🎬 AI Script Master v.5.01 (TikTok Creator Suite)
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Version-v.5.01-blueviolet?style=for-the-badge" alt="Version" />
-  <img src="https://img.shields.io/badge/Framework-React%2019-61dafb?style=for-the-badge&logo=react&logoColor=black" alt="React 19" />
-  <img src="https://img.shields.io/badge/Build-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/AI-Gemini%202.5%20%2B%20Veo-indigo?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Gemini Models" />
+  <br />
+  <img src="https://img.shields.io/badge/Version-v.5.01-7c3aed?style=for-the-badge&logo=tiktok&logoColor=white" alt="Version v5.01" />
+  <img src="https://img.shields.io/badge/React-19-61dafb?style=for-the-badge&logo=react&logoColor=black" alt="React 19" />
+  <img src="https://img.shields.io/badge/Build-Vite_5-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite 5" />
+  <img src="https://img.shields.io/badge/AI-Gemini_2.5_Flash-indigo?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Gemini 2.5" />
+  <img src="https://img.shields.io/badge/Video-Google_Veo-ea4335?style=for-the-badge&logo=google&logoColor=white" alt="Google Veo" />
+  <img src="https://img.shields.io/badge/Desktop-Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="Electron" />
   <br />
   <br />
-  <h2 align="center">The Ultimate TikTok Creator Engine</h2>
-  <p align="center">
-    <strong>Upload a poster. Get a complete marketing campaign.</strong>
-    <br />
-    Turn a single image into viral TikTok scripts, cinematic Veo videos, voiceovers, live pitching practice, and cross-platform strategy.
-  </p>
-  <p align="center">
-    <em>Coming Soon: Instagram Reels & YouTube Shorts Suites</em>
+  <h1>🚀 The Ultimate AI Production Suite for TikTok Creators</h1>
+  <p align="center" style="font-size: 1.1em; max-width: 600px; margin: 0 auto;">
+    <strong>Upload a single poster. Generate an entire viral marketing campaign.</strong><br/>
+    AI Script Master is a cutting-edge web and desktop application designed to streamline the creative workflow for short-form video creators.
   </p>
 </div>
 
+<br />
+
 ---
 
-## 🚀 Key Features
+## ✨ Features & Capabilities
 
-| Feature | Description | AI Model |
+This suite leverages the latest **Google GenAI SDK** to perform complex multimodal tasks:
+
+| Feature | Description | AI Model Used |
 | :--- | :--- | :--- |
-| **🎨 Vertical Script Gen** | Generates scripts specifically optimized for TikTok retention (Hooks, CTAs). | `gemini-2.5-flash` |
-| **🎥 Magic Video** | Transforms static posters into cinematic 720p vertical video teasers. | `veo-3.1-fast-generate` |
-| **🎙️ Live Pitch** | Real-time voice roleplay to practice selling your product against an AI client. | `gemini-2.5-flash-native-audio` |
-| **📈 Trend Radar** | Fetches real-time news and Google Search trends related to your niche. | `gemini-3-pro` + `googleSearch` |
-| **♻️ Repurpose** | Auto-converts scripts into IG Stories, X Threads, and LinkedIn posts. | `gemini-2.5-flash` |
-| **🖼️ Thumbnail** | Generates high-CTR thumbnail concepts based on the script. | `imagen-4.0-generate` |
+| **🎨 Vertical Script Gen** | Analyze image posters and generate viral-ready TikTok scripts with hooks, CTAs, and visual directions. | `gemini-2.5-flash` |
+| **🎥 Magic Video (Veo)** | Transform static images into cinematic 720p/1080p vertical video teasers suitable for Reels/TikTok. | `veo-3.1-fast-generate` |
+| **🎙️ Live Pitch Practice** | Practice your sales pitch in real-time with an AI persona (e.g., Critical Client, Gen Z) using low-latency voice. | `gemini-2.5-flash-native-audio` |
+| **📈 Trend Radar** | Fetch real-time news and Google Search trends related to your niche to ensure content relevance. | `gemini-3-pro` + `googleSearch` |
+| **♻️ Content Repurposing** | Automatically convert video scripts into Instagram Stories, X Threads, and LinkedIn professional posts. | `gemini-2.5-flash` |
+| **🖼️ Thumbnail Concepts** | Generate high-CTR thumbnail visualizations based on the generated script and branding analysis. | `imagen-4.0-generate` |
+| **🗣️ Multilingual TTS** | Text-to-Speech with specific voice tones (Cheerful, Deep, Storyteller) in English and Indonesian. | `gemini-2.5-flash-tts` |
 
 ---
 
-## 🛠️ Installation & Usage
+## 🛠️ Tech Stack
 
-You can run this application locally or build it as a desktop application.
-
-### Prerequisites
-*   **Node.js** (v18 or higher) installed on your system.
-*   **Google AI Studio API Key** (Get it [here](https://aistudio.google.com/)).
-
-### Option 1: Quick Start Scripts (Recommended)
-
-We have provided automated scripts to get you started immediately.
-
-**For Windows:**
-1.  Double-click `run_dev.bat` to install dependencies and start the local server.
-2.  Double-click `build_app.bat` to create a standalone `.exe` application.
-
-**For macOS / Linux:**
-1.  Open Terminal.
-2.  Run `chmod +x run_dev.sh build_app.sh` to make them executable.
-3.  Run `./run_dev.sh` to start the app.
-4.  Run `./build_app.sh` to build the `.dmg` or Linux binary.
-
-### Option 2: Manual Installation
-
-1.  **Install Dependencies:**
-    ```bash
-    npm install
-    ```
-
-2.  **Run Development Server:**
-    ```bash
-    npm run dev
-    ```
-    Open `http://localhost:5173` in your browser.
-
-3.  **Build for Desktop (Electron):**
-    ```bash
-    npm run package
-    ```
-    Check the `out/` folder for your application file.
+*   **Frontend**: React 19, TypeScript, Tailwind CSS
+*   **Build Tool**: Vite 5
+*   **Desktop Wrapper**: Electron 28
+*   **AI Integration**: Google GenAI SDK (`@google/genai`)
+*   **Icons**: Lucide React
 
 ---
 
-## 💳 Billing & API Keys
+## 🚀 Getting Started (Local Development)
 
-*   **Free Tier:** Works for Script Gen, Chat, Analysis, Live Pitch, and TTS.
-*   **Paid Tier (Blaze):** Required for **Veo (Video Generation)** and **Imagen (Image Generation)**. 
-    *   *Note:* If you receive a 403 error during video generation, ensure your Google Cloud Project has billing enabled.
+Follow these steps to run the application on your local machine for development.
+
+### 1. Prerequisites
+*   **Node.js**: Version 18.0.0 or higher ([Download Here](https://nodejs.org/)).
+*   **API Key**: A Google AI Studio API Key.
+    *   Get it for free at [aistudio.google.com](https://aistudio.google.com/).
+    *   *Note: To use **Veo (Video)** and **Imagen**, you must use an API key linked to a Google Cloud Project with Billing enabled.*
+
+### 2. Installation
+Clone the repository (or download the source code) and install dependencies:
+
+```bash
+# Install NPM dependencies
+npm install
+```
+
+### 3. Running the App
+Start the local development server with Vite. This allows for Hot Module Replacement (HMR) and fast editing.
+
+```bash
+npm run dev
+```
+> The app will open at `http://localhost:5173`.
 
 ---
+
+## 📦 Building for Desktop (Windows, macOS, Linux)
+
+This project includes **Electron Forge** configuration to package the web application into a standalone desktop executable (`.exe`, `.dmg`, `.deb`, etc.).
+
+### Build Commands
+
+Run the following command to package and make the distributable file for your current operating system:
+
+```bash
+npm run package
+```
+
+This command runs `electron-forge make` under the hood.
+
+### Platform Specific Instructions
+
+#### 🪟 Windows
+*   **Requirement**: Run the build command on a Windows machine.
+*   **Output**: This will generate a **Squirrel installer** (`.exe`) inside the `out/make/squirrel.windows/` folder.
+*   **To Run**: Double-click the generated `.exe` to install and launch.
+
+#### 🍎 macOS
+*   **Requirement**: Run the build command on a macOS machine.
+*   **Output**: This will generate a **.zip** or **.dmg** file inside the `out/make/` folder.
+*   **Note**: For distribution, you may need to sign the application with an Apple Developer ID, otherwise users will see a security warning.
+
+#### 🐧 Linux
+*   **Requirement**: Run the build command on a Linux machine.
+*   **Output**: Depending on your configuration, this can generate `.deb` (Debian/Ubuntu) or `.rpm` (RedHat/Fedora) packages in the `out/make/` folder.
+*   **Dependencies**: Ensure you have `rpm` or `dpkg` build tools installed on your system (`sudo apt-get install dpkg fakeroot rpm`).
+
+---
+
+## ❓ Troubleshooting
+
+### Common API Errors
+
+1.  **Error 403 (Permission Denied) on Video Generation**:
+    *   **Cause**: The API Key used is from the Free Tier. Veo models require a "Blaze" (Pay-as-you-go) plan.
+    *   **Fix**: Enable billing on your Google Cloud Console project associated with the API key.
+
+2.  **Error 429 (Resource Exhausted)**:
+    *   **Cause**: You have hit the rate limit (RPM/TPM) for the model.
+    *   **Fix**: Wait for 1-2 minutes before trying again, or request a quota increase.
+
+3.  **Microphone Not Working (Live Pitch)**:
+    *   **Cause**: Browser or OS permission denied.
+    *   **Fix**: Allow microphone access in your browser settings (click the lock icon in the URL bar) and check your System Preferences.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
 
 <div align="center">
-  <p>Built with ❤️ by the Senior Frontend Team</p>
+  <p>Created by the Senior Frontend Team</p>
 </div>
