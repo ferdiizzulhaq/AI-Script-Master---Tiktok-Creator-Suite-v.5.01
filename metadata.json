@@ -1,0 +1,7 @@
+{
+  "name": "AI Script Master v.5.01",
+  "description": "TikTok Creator Suite. An all-in-one AI production suite featuring Script Gen, Veo Video Gen, Live Pitch Practice, and Real-time Trends.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
