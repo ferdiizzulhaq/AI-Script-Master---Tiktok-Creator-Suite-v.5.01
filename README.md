@@ -64,11 +64,6 @@ Clone the repository (or download the source code) and install dependencies:
 # Install NPM dependencies
 npm install
 ```
-atau
-```bash
-# Install NPM dependencies
-npm install lucide-react@latest
-```
 
 ### 3. Running the App
 Start the local development server with Vite. This allows for Hot Module Replacement (HMR) and fast editing.
